@@ -1,0 +1,81 @@
+--------------------------------------------------------------------------------
+VEB OS - Development Update - September 20, 2024
+--------------------------------------------------------------------------------
+Notices:
+  Line 05 - Notice Index
+  Line 12 - Notice 1
+  Line 19 - Notice 2
+  Line 69 - Notice 3
+  Line 75 - Notice 4
+--------------------------
+
+Notice 1: A Complete Change in Development
+After I have looked into OpenOS further, I have found it actually requires a lot
+of libraries to be interused which makes it memory intensive, VEB OS was
+originally going to add further to OpenOS which now I realize, is not only a
+waste of my learning and skills, but also would make VEB OS extremely memory
+intensive. So VEB OS is now becoming a library!
+
+Notice 2: Potential Products
+I have some potential products in 1-15% development stages that may become
+real in the next few years.
+
+VEB Kernel:
+A very basic bootloader and program runtime for core level programs. Allows
+chainloading OS's, managing and editing files, and virtualizing OS's and
+EEPROM's. A basic but feature filled Kernel, great for those wanting to
+get into serious OS and Core Program Development.
+  - VEB Kernel will be released as a single product -
+
+VEB Netstack:
+A basic network operating system for VEB Biztalk servers and VEB Network
+routers/domain controllers. Built on VEB Kernel and resembles MS-DOS 5 in a
+soft blue color.
+ - VEB Netstack will be released as a single product -
+ 
+VEB Operating Environment (VEB OE):
+A simple operating system oddly resembling windows 386/3.1 in design, great for
+users wanting to have an Operating System with even stronger security and on an
+unmanaged drive.
+  - VEB OE will be released as a family of products -
+  VEB OE Developer Edition
+  VEB OE Corporate Edition
+  VEB OE Corporate Server
+  VEB OE Standard Edition
+  VEB OE Server Edition
+  VEB OE Basic Edition
+  
+  VEB OE Trial Edition
+  * Activated when you choose not to use a product key*
+
+VEB Managed Operating System: 
+A full featured Operating System for Managed Drives, very much alike VEB OE will
+be designed off of it. It will have a repository, changelog, version and roadmap
+created for it on the github. Will be built on a different version of the kernel
+designed for Managed Drives.
+  - VEB MOS will be released as a family of products -
+  VEB MOS Developer Edition
+  VEB MOS Developer Server Edition
+  VEB MOS Corporate Edition
+  VEB MOS Corporate Server Edition
+  VEB MOS Professional Edition
+  VEB MOS Server Edition
+  VEB MOS (home) Premium Edition
+  VEB MOS Home Edition
+ 
+  VEB MOS Trial Edition
+  * Activated when you choose not to use a product key*
+
+Notice 3: Unmanaged Drives
+These drives have facinated me long enough, most VEB OS's will be built for and
+to be compatible with Unmanaged Drives. A special bootloader adopted by VEB will
+be installed with every OS. VEB MOS is the only Planned VEB OS to primarily use
+managed drives.
+
+Notice 4: Advanced Bootloader
+This eeprom script was discovered from Ocelot, an OpenComputers Emulator,
+CyanBios was also tried and there was an attempt to develop VEB CMOS, however,
+that too has been dropped. advancedLoader or Advanced Bootloader was chosen as
+our eeprom script, it provides compatibility with both managed and unmanaged
+drives and loads from drives in a form we can easily use. Therefore VEB has
+adopted it and it will be distributed with the product.
